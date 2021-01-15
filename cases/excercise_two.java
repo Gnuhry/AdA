@@ -2,6 +2,18 @@ package excercise;
 
 import java.util.Scanner;
 
+/*Aufgabe:
+ 1. In dem Code sind Fehler versteckt. Lokalisiere die Fehler und dokumentiere sie im Code.
+ 2. Verbessere diese Fehler, so dass der Code wie gewünscht funktioniert.
+ */
+
+/*Code
+Der Code ist ein Ticketautomat der Deutschen Bahn. Er fragt ab, wo das Ziel hingehen soll, wieviele Personnen mitfahren möchten und ob eine Bahncard existiert.
+Danach soll mit Bargeld bezahlt werden.
+
+Achte dabei darauf, dass es ein realer Anwendungsfall ist!
+*/
+
 public class two {
         String[] ziele = new String[]{"Frankfurt", "HEssen", "Berlin", "Hamburg", "Frankfurt", "Bremen", "münschen", "Cologne", "Bielefeld", "Wolfsburg"};
         double[] preise = new double[]{66.6, 12.34, 99.99, 0.01, 4.20, 5.84, 84.87, 73.93, 9999.99, 0};
